@@ -7,7 +7,7 @@ extern "C" {
 
 #include <stdbool.h>
 #include <stdint.h>
-#include <stdlib.h>
+// #include <stdlib.h>
 
 #define ts_builtin_sym_error ((TSSymbol)-1)
 #define ts_builtin_sym_end 0

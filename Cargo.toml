@@ -20,7 +20,7 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter = "~0.20"
+tree-sitter = { package = "tree-sitter-c2rust", version = "~0.20" }
 
 [build-dependencies]
 cc = "1.0"
